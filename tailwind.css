@@ -1,0 +1,152 @@
+/*
+Theme Name: Temp
+Author: tdturn2
+Author URI: //terryturner.org/
+Description: Custom theme for Deb
+Version: 2.0
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+    h1, h2, h3, a {
+        @apply text-atsblue-100;
+    }
+    h1, h2, h3, h4 {
+        font-family: "Libre Baskerville", serif;
+    }
+    h1 {
+        @apply text-[40px] font-extrabold pb-2 max-sm:text-3xl max-[450px]:text-2xl;
+      }
+    
+    h2 {
+        @apply text-[32px] font-extrabold pb-2 max-sm:text-2xl max-[450px]:text-xl;
+    }
+    h3 {
+        @apply text-[22px] font-extrabold pb-2 max-sm:text-xl max-[450px]:text-lg;
+    }
+    p {
+        @apply mb-2;
+    }
+    ul {
+        @apply list-[square] ml-10;
+    }
+    li {
+        @apply mb-1;
+    }
+    button {
+        @apply hidden;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    ::marker {
+        font-size: 25px;
+        line-height: 18px;
+    }
+    .content-box {
+        @apply px-10;
+    }
+    [aria-current="page"] {
+        font-weight: 900;
+    }
+}
+
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.menu a:hover {
+    text-decoration: none;
+}
+.split {
+    columns: 2;
+    margin: 5px auto 0px auto;
+    max-width: 48rem;
+}
+.white-box {
+    box-shadow: inset 0px 11px 8px -10px #00000029,
+                inset 0px -11px 8px -10px #00000029;
+    background-color: white;
+}
+.grey-shadow {
+    box-shadow: 0px 3px 6px #00000029;
+
+}
+.slick-current img {
+    opacity: 1;
+}
+.slick-current .carousel-info {
+    display: unset;
+}
+.current-menu-item a {
+    font-weight:800 !important;
+}
+.slick-prev:before, .slick-prev {
+    content: '←';
+    left: 28%;
+    z-index: 1;
+  }
+  .slick-next:before, .slick-next {
+    content: '→';
+    right: 28%;
+  }
+  .slick-prev, .slick-next{
+    top: 45%;
+    position: absolute;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+    top: 45%;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    background-color: #005E82;
+    opacity: .65;
+    border-radius: 50%;
+    padding: 5px;
+}
+.slick-arrow {
+    display: none !important;
+}
+.slick-slider:hover > .slick-arrow  {
+    display: unset !important;
+}
+/* .mobile-team {
+    display: none;
+} */
+
+
+@media (max-width: 1024px) {
+    .split {
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .split {
+        columns: unset;
+    }
+    /* .mobile-team {
+        display: block;
+    } */
+}
