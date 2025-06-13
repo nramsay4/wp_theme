@@ -1,0 +1,342 @@
+ /* All Classes Listing Page */
+.class-listing {list-style-type: none;}
+.class-listing img {float:left; margin: 0 15px 0 0; padding-bottom: 10px;}
+.class-listing li {border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0;}
+ 
+ /* Course Styles */
+ 
+ body.page-course h2 {margin: 0 0 15px 0; padding:0;line-height: 20px; color: #23282e; font-size: 24px; font-weight: 700; letter-spacing: .03em;}
+ body.page-course p,  body.page-course ul li, body.page-course .class-description {font-size: 16px; line-height: 22px; color: #23282e;} 
+ body.page-course .class-description ul li {margin-left:0; margin-bottom: 10px;}
+body.page-course .class-description ul {margin: 20px 0;}
+.class-nav-body {overflow-y: scroll;overflow-x: hidden; max-height:400px; bborder: 1px solid #d2d2d2; border-right: none;}
+.class-nav-body:hover {cursor: pointer;}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+
+.class-navigation {height: auto; width: 388px; background: #f3f7fa; border: 1px solid #aabdc4;}
+.class-navigation h1 {font-size:26px; color: #085c80; font-weight: 900; line-height: 26px; border:0;}
+.class-navigation ul { list-style-type: none; padding: 0px; margin: 0; }
+
+a.video-link {cursor: pointer;}
+.class-navigation ul li a {}
+.class-navigation ul li {margin: 0 0 0 0; padding: 5px 15px 5px 30px; border-bottom:1px solid #eee; }
+ul.no-pdf li {padding: 20px;}
+
+.class-navigation ul li:hover {background-color: #e2e7ec; transition: all 0.5s ease 0s;}
+.class-navigation .active:hover {background: #23282c;}
+.class-navigation .active {background-color: #23282c;}
+.class-navigation .active a {color: #fff;}
+.class-navigation h4 {font-size: 12px; text-transform: uppercase;}
+.class-pdf {font-size:12px; font-weight: 500; color: #5a4f52;}
+
+
+
+.all-classes h4 {color: #085c80;}
+.session-title{font-weight: 900; color: #085c80; font-size: 16px;}
+.active .session-title {color: #fff;}
+
+.pdfs {display: block;}
+.description-container table tr td {padding: 10px 5px; border: 1px solid #eee;}
+ul.all-resources li {padding: 20px;}
+.video {background: #000;}
+
+
+
+
+
+
+.video {background: #000;}
+.class-description {background: #f3f5f4;}
+.description-container {margin-top: 20px;}
+
+a[href$=".pdf"]
+{
+  background-image: url('/wp-content/uploads/Adobe_PDF_file_icon_24x24.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding: 0px 18px 0 35px; 
+  height: 30px;
+  display: inline-block;
+}
+
+.author-bio ul li a[href$=".pdf"] {
+  padding: 0px 18px 0 35px; 
+  height: 21px;
+}
+.author-bio ul li a {
+  text-decoration: underline;
+}
+
+.title-area-wrapper {
+  background: #f3f7fa;
+  display:grid;
+  justify-content: center;
+  height: 115px;
+}
+.theater .title-area-wrapper {
+  background: #000;
+  
+}
+.title-area {
+  width: 1300px;
+  bbackground: #bada55;
+  display: grid; 
+  grid-template-columns: 1fr 170px; 
+  grid-template-rows: 85px 30px;
+  grid-gap: 0; 
+  
+  
+  justify-items: start;
+  align-items: left;
+  bbackground: red;
+}
+.theater .title-area {
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 53%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 53%);
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 53%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='transparent',GradientType=0 );
+}
+.theater .title-area {
+  z-index: 1;
+}
+.view-switcher {
+  align-self: center;
+}
+.view-switcher:hover {
+  cursor: pointer;
+}
+.view-switcher img {margin-bottom: -9px; width: 30px; height: auto;}
+.view-switcher span {
+  color: #b4b8bb;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.class-title {
+  align-self: center;
+}
+
+.class-title h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  display: inline;
+}
+.page-7ms-view .class-title h1, .page-chapel-view .class-title h1 {font-size: 30px;}
+.theater .class-title h1 {
+  color: #fff;
+}
+.page-resources .class-title h1 {
+	font-size: 35px;
+}
+.instructor-name {
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  margin-left: 30px;
+}
+.theater .instructor-name {
+  color: #fff;
+}
+.class-wrapper {
+  display:grid;
+  justify-content: center;
+  wwidth: 1300px;
+  ggrid-template-columns: 390px 1fr;
+  grid-template-columns: 1fr;
+  bbackground: teal;
+  justify-self: center;
+  align-self: center;
+  margin: 10px auto;
+  grid-gap: 10px;
+  grid-template-rows: 3;
+}
+
+.theater .class-wrapper {
+  ggrid-template-columns: 700px;
+  bbackground: #000;
+  margin: 0 auto 10px auto;
+}
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	ppadding-top: 26px;
+	height: 0;
+	background: #000;
+}
+.theater .video-wrapper {
+  order: -1;
+  margin-top: -115px;
+  z-index: 0;
+  wwidth: 250px;
+
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.class-data span {color: #085c80;}
+.theater .class-data span {color: #a7a8aa;}
+.class-data span:nth-child(1), .class-data span:nth-child(2) {border-right: 1px solid #085c80; padding-right: 10px; margin-right: 10px;}
+.theater .class-data span:nth-child(1), .theater .class-data span:nth-child(2) {border-right: 1px solid #a7a8aa;}
+.page-resources .class-data span:nth-child(2), .page-7ms-view .class-data span:nth-child(2), .page-chapel-view .class-data span:nth-child(2) {border-right: none;}
+
+.class-description {
+  background: #f3f5f4;
+  border: 1px solid #aabdc4;
+  margin: 0px 0;
+  padding: 15px 25px;
+}
+.class-description h2 {
+  margin: 0; 
+  padding: 0;
+  color: #23282c;
+}
+.author-bio {
+  font-size: 12.2px;
+  line-height: 20px;
+  text-align: justify;
+  background: #f3f7fa;
+  border: 1px solid #aabdc4;
+  padding: 15px 20px;
+  width: 348px;
+}
+.author-bio ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.author-bio ul li {
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+
+.author-bio img {
+  max-width: 80px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.overview {
+  background: #f3f7fa;
+  border: 1px solid #aabdc4;
+  padding: 15px 25px;
+}
+
+.overview ul {
+  list-style: outside;
+}
+
+.overview p {
+  margin-bottom: 10px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.over ul li {
+  color: #111433;
+}
+
+.class-wrapper-video {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+.theater .class-wrapper-video {
+  order: -1;
+  background: #000;
+  width: 1200px;
+  justify-self: center;
+  align-self: center;
+}
+.class-wrapper-top, .class-wrapper-data {
+  width: 1300px;
+  display: grid;
+  grid-template-columns: 390px 1fr;
+  justify-self: center;
+  align-self: center;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-rows: 1;
+}
+.class-wrapper-data {
+  grid-gap: 10;
+}
+.theater .class-wrapper-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.theater .class-wrapper {
+  bbackground: #000;
+}
+.theater .class-wrapper-top {
+  width: 100%;
+  grid-template-columns: 1fr;
+  background: #000;
+}
+.theater .author-bio {
+  width: auto;
+}
+.theater .class-navigation {
+  width: auto;
+}
+
+.overview img {
+  max-width: 100%; height: auto;
+}
+
+@media all and (max-width: 1370px) {
+  .title-area-wrapper {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .title-area {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+  }
+  .class-wrapper-top, .class-wrapper-data {
+    width: 100%;
+  }
+  .view-switcher {
+    justify-self: end;
+    margin-right: 15px;
+  }
+  .class-title {
+    min-width: 50%;
+  }
+  .class-title h1 {
+    font-size: 35px;
+  }
+}
+@media all and (max-width: 1230px) {
+  .theater .class-wrapper-data {
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+  }
+  #switch {
+    display: none;
+  }
+  .theater .class-wrapper-video {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 1230px) {
+  .theater .title-area {display: none;}
+}

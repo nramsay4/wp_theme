@@ -1,0 +1,712 @@
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('nexa_bold-webfont.eot');
+    src: url('nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nexa_bold-webfont.woff') format('woff'),
+         url('nexa_bold-webfont.ttf') format('truetype'),
+         url('nexa_bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('nexa_light-webfont.eot');
+    src: url('nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nexa_light-webfont.woff') format('woff'),
+         url('nexa_light-webfont.ttf') format('truetype'),
+         url('nexa_light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, a:hover {
+  color:#00708e;/*c69214;*/
+}
+.bold{
+	font-family:texgyreadventorbold,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.regular{
+	font-family:texgyreadventorregular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.gray_bar{
+	/*background-color:#c02030;*//*#333;*/
+	border-top:6px rgba(76, 76, 76, 1) solid;
+background: #c1272f;
+background: -moz-linear-gradient(left, #c1272f 61%, #db7036 83%, #f7a73e 99%);
+background: -webkit-linear-gradient(left, #c1272f 61%,#db7036 83%,#f7a73e 99%);
+background: linear-gradient(to right, #c1272f 61%,#db7036 83%,#f7a73e 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1272f', endColorstr='#f7a73e',GradientType=1 );
+}
+
+
+
+/*
+	Blue: #00708e
+	Purple: #49176d
+	*/
+#nav{
+	background-color:#c02030;/*b78c1f;*/
+	width:100%;
+	height:40px;
+	position: fixed;
+	top: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";       /* IE 8 */
+	filter: alpha(opacity=90);  /* IE 5-7 */
+	-moz-opacity: 0.9;          /* Netscape */
+	-khtml-opacity: 0.9;        /* Safari 1.x */
+	opacity: 0.9;  
+}
+.uk-navbar {
+	background-color:#c02030;
+}
+.uk-navbar-nav>li a:hover,
+.uk-navbar-nav>li a:focus{
+	background-color: #ef983c;
+}
+
+#promo{
+	/*background-image: url("../images/new/project_bg_lg.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;*/
+	background-color:#40636d;/*402F15;*/
+	background: rgba(76, 76, 76, 1);
+	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(100%, rgba(19,19,19,1)));
+	background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+	color:#fff;
+	text-align:center;
+	padding:50px 0 0 0;
+	max-height:820px;
+	width:100%;
+}
+#promo h1{
+	margin:0 0 40px 0;
+	color:#fff;
+	font-size:55px;/*65px;*/
+	line-height:40px;/*80px;*/
+	font-family: nexa_boldregular;
+}
+#promo .breaks-big{
+	display: block;	
+}
+.home h1.uk-heading-large {
+	margin-top:0;
+	padding-top:0;
+}
+#promo img.separator {
+  text-align: center;
+}
+.tag-line { font-size:35px; line-height: 45px;}
+.bullets { font-size:50px; line-height: 50px; display:block;margin-top:10px;}
+
+/*#promo_text{
+	padding:20px 40px 10px 40px; 
+	width:850px; 
+	color:#fff;
+	text-decoration:italic;
+	margin: 0 auto 0 auto;
+	letter-spacing:1px;
+	font-family:Georgia, Times, Times New Roman, serif;
+	font-size:20px;
+	line-height:22px;
+	background-color:#fff;
+	background-color:rgba(255,255,255,0.3);
+}*/
+
+.btn {
+  background: 150ms ease, color 150ms ease, border-color 150ms ease;
+  display: inline-block;
+  background-color: #c02030;
+  padding: 25px 45px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  font-family: texgyreadventorregular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ef983c;
+  
+}
+
+#venue-content p, #contact-content p {
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+div.main-video {
+	float:right; 
+	margin:20px 0 0 10px;
+	width: 550px;
+}
+
+.main-video iframe {
+	width: 500px;
+	height: 281px;
+}
+
+#promo img.logo {
+	float: right;
+	/*height: 382px;
+	width: 330px;
+	position: relative;*/
+	/*top: -31px;*/
+	padding: 10px 70px;
+	
+}
+#promo h1 {
+	margin: 5px 0 0 0;
+}
+
+#register_now{
+	background-color: #FEFEFF; /*#e9e9e9;*/
+	font-size:25px;
+	line-height:30px;
+	padding:40px 0 40px 0;
+    text-align: left;
+}
+#register_now p {
+	line-height: 40px;
+}
+
+#register_now #title_text{
+	display:block;
+	font-size:40px;
+	text-transform:uppercase;
+	color:#373430;
+	margin-top:10px;
+}
+#intro{
+/*	width:60%; */
+	margin-top:30px; 
+	text-align:center;
+}
+#title_text {
+	padding-top: 40px;
+}
+
+#register_button_top{
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #40636d;/*#fff;*/
+	width:280px;
+	padding: 20px 0 20px 0;
+/*	margin: 5px 0 5px 0;*/
+	color:#40636d;/*#fff;*/
+	letter-spacing:10px;
+	text-align:center;
+	font-size:25px;
+	background-color: #ced3d5;
+}
+#register_button_bottom{
+	border: 1px solid #fff;
+	width:280px;
+	padding: 20px 0 20px 0;
+	margin: 5px 0 5px 0;
+	color: #fff;
+	letter-spacing:10px;
+	text-align:center;
+	font-size:25px;
+}
+.what{
+	display:block;
+	color:#fff;
+	font-family:texgyreadventorbold,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:42px;
+  padding:30px 0 40px 0;
+  text-align:center;
+}
+.yellow_full{
+	display:block;
+	color:#fff;
+	font-size:34px;
+	line-height:45px;
+	background-color:#e1a44c;
+	font-family:Georgia, Times, Times New Roman, serif;
+  padding:30px 0 40px 0;
+  text-align:center;
+}
+#speakers{
+	background-color:#fff;/*dcdcdc;*/
+	padding: 20px 30px 30px 30px;
+	text-align:left;
+	margin-bottom: 30px;
+}
+
+#speakers img {
+	clear: both;
+	float:none; 
+	width: 250px;
+	text-align: center;
+}
+#speakers p{
+  font-size: 20px;
+  line-height: 24px;
+}
+#speakers h3{
+	color:#00708e;
+	font-size:20px;
+	font-family:texgyreadventorregular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	padding: 0 0 0 0;
+}
+
+
+#addresses{
+  font-family:texgyreadventorregular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align:left;
+  text-transform:uppercase;
+}
+#schedule .yellow_full{
+	font-size:24px;
+	line-height:35px;
+}
+#schedule h3{
+	font-family:texgyreadventorbold,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:25px;
+	color:#00708e;
+}
+
+#competition .yellow_full {
+/*	color: #fff;*/
+	color: #444;
+	font-size: 24px;
+  line-height: 35px;
+	background-color:  #e9e9e9;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+}
+
+#competition .yellow_full h1 {
+	color: #e1a44c;
+}
+#competition h3 {
+	margin-top: 10px;
+}
+#competition .rules{
+	margin-top: 2;
+	margin-bottom: 20px;
+}
+#competition .rules h2{
+	text-align: center;
+	color: #e1a44c;
+}
+#competition .rules a{
+	color: #e1a44c;
+}
+#competition .rules ol {
+	font-size: 20pt;
+}
+#compteition .rules span {
+	margin: 0;
+	padding: 0;
+}
+#competition .rules span.li {
+	font-size: 10pt;
+}
+#competition .rules h3 {
+	margin-bottom: 8px;
+}
+#register-bottom{
+	padding:15px 0 15px 0;
+	background-color:#e1a44c;/*#c69214*/
+}
+#footer{
+	background-color:#e9e9e9;
+	text-align:center;
+	padding:20px 0 20px 0;
+	font-size:25px;
+	line-height: 30px;
+	font-family:texgyreadventorregular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#footer br.narrow {
+	display: none;
+}
+#footer .addresses {
+	margin-top: 30px;
+	font-size: 11pt;
+	font-family: Georgia,Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#footer .address{
+	padding: 10px;
+}
+
+/* IPAD HORIZONTAL */
+@media all and (max-width: 1219px) {
+	.uk-navbar{
+	 /* width:950px;*/
+	}
+	#promo{
+		background-size: cover;
+	}
+	#promo h1{
+		font-size:40px;
+		line-height:50px;
+	}
+	.tag-line { font-size:35px; line-height: 45px;}
+	.bullets { font-size:40px; line-height: 40px; display:block;margin-top:10px;}
+	#promo_text{
+	  width:650px;
+		font-size:20px;
+		line-height:22px;
+	}
+	#promo img.logo {
+		float: none;
+	}
+	#promo img.separator {
+		width: 330px;
+	}
+	#promo img.banner-date {
+		width: 395px;
+	}
+	#title_text {
+		padding-top: 20px;
+	}
+	#register_now p{
+		font-size:20px;
+		line-height:35px;
+	}
+	#register_now img{
+	  width:100px;
+	}
+	.what{
+	  font-size:35px;
+	}
+	#schedule .yellow_full{
+		font-size:20px;
+		line-height:25px;
+    }
+   #breakout h3{
+     font-size:20px;
+    }
+   #breakout p{
+     font-size:15px;
+    }
+	#footer{
+	  font-size:20px;
+	}
+	#footer .addresses{
+		padding: 0;
+		margin: 0;
+	}
+	div.main-video {
+		float:none; 
+		text-align: center;
+		clear:both;
+		margin:0;
+		width: 100%;
+    }
+}
+
+/*  IPAD PORTRAIT */
+@media all and (max-width: 959px) {
+	.uk-navbar{
+	  /*width:770px;*/
+	}
+	#promo h1{
+		margin
+		float: none;
+		font-size:40px;
+		line-height:50px;
+	}
+	#promo_text{
+	  width:600px;
+		font-size:18px;
+		line-height:20px;
+	}
+	
+	#promo .grid-logo {
+		width: 49%;
+	}
+	#promo .grid-text {
+		width: 49%
+	}
+	#promo img.logo {
+		float: none;
+		margin:0;
+		padding-bottom: 20;
+		width: 400px;
+		min-width: 400px;
+		/*height: 382px;
+		width: 330px;
+		position: relative;*/
+		/*top: -31px;*/
+		/*padding: 10px 70px;*/
+	}
+	#promo img.separator {
+		width: 260px;
+	}
+	#promo img.banner-date {
+		width: 310px;
+	}
+	#title_text {
+		padding-top: 8px;
+	}
+/*	#intro .logo {
+		position: relative;
+		top: -12px;
+	}*/
+	
+	
+	
+	#register_now{
+		font-size:16px;
+		line-height:25px;
+	}
+	#register_now img{
+	  width:70px;
+	}
+	#register_now #title_text{
+	  font-size:32px;
+	}
+	.what{
+	  font-size:30px;
+	}
+	.yellow_full{
+		font-size:22px;
+		line-height:29px;
+  }
+	#speakers p{
+	  font-size:14px;
+	}
+	#speakers h3{
+		font-size:18px;
+	}
+	#breakout h3{
+    font-size:16px;
+  }
+  #breakout p{
+    font-size:14px;
+  }
+	#footer{
+	  font-size:18px;
+	}
+}
+
+/* iPhone landscape */
+@media all and (max-width: 767px) {
+	
+	.uk-navbar{
+	  /*width:600px;*/
+	}
+	.uk-navbar ul{
+	  float:left;
+	  margin-left:0px;
+	}
+	#promo {
+	  max-height: none;
+	}
+	#promo h1{
+		font-size:30px;
+		line-height:40px;
+		padding-bottom: 30px;
+	}
+	#promo .grid-logo, #promo .grid-text {
+		width: 49%;
+	}
+	#promo img.logo{
+		float: none;
+		width: 330px;
+		min-width: 330px;
+	}
+	#promo img.separator{
+		width: 180px;
+	}
+	#promo img.banner-date{
+		width: 220px
+	}
+/*	#promo_text{
+	  width:500px;
+		font-size:16px;
+		line-height:20px;
+	}*/
+	#promo h1{
+		float: none;
+		font-size:28px;
+		line-height:37px;
+		margin:10px 20px 0 0;
+	}
+	#promo_text{
+	  margin-top:20px;
+	  width:280px;
+		font-size:16px;
+		line-height:18px;
+	}	
+	#register_now{
+		font-size:14px;
+		line-height:25px;
+		text-align:left;
+		padding: 25px 0 25px 0;
+	}
+	#register_now #title_text{
+	  font-size:24px;
+	}
+	#intro{
+		width:100%; 
+		margin-top:15px; 
+		margin-bottom: 30px;
+	}
+	#intro .logo{
+		display: none;
+	}
+	.uk-grid .speaker {
+		text-align: center;
+	}
+	#register_now img{
+	  display:none;
+	}
+	.what{
+	  font-size:16px;
+	  padding:15px 0 15px 0;
+	}
+	.yellow_full{
+		font-size:16px;
+		line-height:22px;
+		padding:15px 0 15px 0;
+  }
+  #speakers{
+    text-align:left;
+  }
+  #speakers h3{
+    margin-top:20px;
+  }
+	#speakers p{
+		padding-left: 0px;
+	}
+  #speakers .uk-width-medium-1-3{
+    margin-top:0px;
+  }
+  #speakers .uk-grid{
+    margin-top:0;
+  }
+	#addresses{
+	  margin-top:20px;
+	  text-align:center;
+	}
+	#schedule .yellow_full{
+	  font-size:16px;
+	  line-height:20px;
+	  text-align:left;
+	}
+	#schedule p{
+	  font-size:12px;
+	}
+	#competition h1 {
+		font-size: 20pt;
+	}
+	#competition .prizes {
+		font-size: 15pt;
+		line-height: 22pt;
+	}
+	#footer{
+	  font-size:12px;
+	}
+}
+
+/* iPhone portrait */
+@media all and (max-width: 550px) {
+	.uk-navbar{
+	  margin-left:-30px;
+	  width:480px;
+	  float:left;
+	  text-align:left;
+	}
+	.uk-navbar ul{
+	  float:left;
+	  margin-left:0;
+	}
+	.uk-navbar ul li a{
+	  font-size:12px;
+	}
+	#promo .grid-logo, #promo .grid-text {
+		width: 100%;
+	}
+	#promo h1{
+		font-size:22px;
+		line-height:35px;
+		margin:10px 15px 0 15px;
+	}
+	#promo_text{
+	  margin-top:20px;
+	  width:200px;
+		font-size:14px;
+		line-height:18px;
+	}
+	#promo .breaks-big {
+		display: none;
+	}
+	#register_now{
+		font-size:14px;
+		line-height:25px;
+	}
+	#register_now p{
+		line-height: 30px;
+	}
+	#register_now img{
+	  display:none;
+	}
+	#register_now #title_text{
+	  font-size:20px;
+	}
+	.what{
+	  font-size:16px;
+	  padding:15px 0 15px 0;
+	}
+	.yellow_full{
+		font-size:16px;
+		line-height:22px;
+		padding:15px 0 15px 0;
+  }
+	#speakers p{
+	  font-size:14px;
+	}
+	#speakers h3{
+		font-size:18px;
+	}
+	#addresses{
+	  margin-top:20px;
+	}
+	#schedule h3{
+	  margin-top:20px;
+	}
+	#footer{
+	  font-size:10px;
+	}
+  #register_button{
+		width:180px;
+		padding: 10px 0 10px 0;
+		font-size:15px;
+	}
+	div.main-video {
+	  margin-left: -15px;	
+	}
+	.main-video iframe {
+		width: 300px;
+		height: 169px;
+	}
+}
+
+@media all and (max-width: 440px) {
+	#footer br.narrow{
+		display: block;
+	}
+	#competition .prizes {
+		font-size: 12pt;
+		line-height: 18pt;
+	}
+}
